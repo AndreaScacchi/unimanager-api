@@ -1,0 +1,28 @@
+# Ambienti virtuali Python
+.venv/
+venv/
+env/
+
+# Cache e file compilati da Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variabili d'ambiente e segreti (es. password DB)
+.env
+.env.*
+
+# Cache degli strumenti di testing e analisi
+.pytest_cache/
+.coverage
+htmlcov/
+
+# File specifici dell'IDE / Sistema Operativo
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Artefatti di build e pacchettizzazione Python
+*.egg-info/
+build/
+dist/
